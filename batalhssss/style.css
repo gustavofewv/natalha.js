@@ -1,0 +1,29 @@
+body {
+    background-color: #1a1a1a;
+    color: #00ff00;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    }
+    .arena {
+    background: #262626;
+    padding: 25px;
+    border: 2px solid #444;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+    }
+    h2 {
+    text-align: center;
+    color: #ff9900;
+    }
+    .controles {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /*Ele define o espaço apenas entre os elementos filhos.*/
+    margin-bottom: 20px;
+    }
+    input, select {
+    padding: 10px;
+    background: #333;
+    }
